@@ -23,8 +23,8 @@ const router = createBrowserRouter([
                 element: <FilmDetails />,
             },
             {
-                path: "/seance/:seanceId/seats",
-                element: <SeatSelection />, // Add this route for seat selection
+                path: "/seance/:seanceId",
+                element: <SeatSelection />, 
               },
         ],
     },
